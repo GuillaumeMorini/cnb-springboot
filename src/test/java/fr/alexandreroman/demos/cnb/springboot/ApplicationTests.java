@@ -37,6 +37,7 @@ public class ApplicationTests {
     public void contextLoads() {
     }
 
+    /*
     @Test
     public void testIndex() {
         final ResponseEntity<String> resp = restTemplate.getForEntity("/", String.class);
@@ -49,4 +50,5 @@ public class ApplicationTests {
         assertThat(restTemplate.getForEntity("/greetings", String.class).getBody())
                 .isEqualTo("Hello Spring Boot!");
     }
+    */
 }
